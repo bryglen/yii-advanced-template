@@ -1,0 +1,20 @@
+Options +FollowSymLinks
+IndexIgnore */*
+<IfModule mod_rewrite.c>
+RewriteEngine on
+
+# ignore api_help from access rule
+#RewriteRule ^api_help - [L,NC]
+
+# Make the admin accessible via url: http://site/admin.
+RewriteRule ^api api.php
+RewriteRule ^backend backend.php
+
+# if a directory or a file exists, use it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Otherwise forward it to index.php.
+RewriteRule . index.php
+
+</IfModule>
