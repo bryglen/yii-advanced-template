@@ -72,6 +72,10 @@ you should be able to access:
 - the backend using the URL `http://localhost/bryantan/backend/`
 - the api using the URL `http://localhost/bryantan/api/`
 
+make sure you enable the modrewrite rule
+
+**Reference:** [http://www.yiiframework.com/doc/guide/1.1/en/topics.url#hiding-x-23x](http://www.yiiframework.com/doc/guide/1.1/en/topics.url#hiding-x-23x)
+
 **Inspired By:** http://www.yiiframework.com/wiki/63/organize-directories-for-applications-with-front-end-and-back-end-using-webapplicationend-behavior
 
 **Since:** Oct 25, 2013

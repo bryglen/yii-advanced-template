@@ -1,6 +1,5 @@
 Options +FollowSymLinks
 IndexIgnore */*
-<IfModule mod_rewrite.c>
 RewriteEngine on
 
 # ignore api_help from access rule
@@ -16,5 +15,3 @@ RewriteCond %{REQUEST_FILENAME} !-d
 
 # Otherwise forward it to index.php.
 RewriteRule . index.php
-
-</IfModule>
