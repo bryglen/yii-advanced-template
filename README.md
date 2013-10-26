@@ -59,12 +59,11 @@ Download source code from [repository](https://github.com/bryglen/yii-advanced-t
 GETTING STARTED
 ---------------
 
-    1. /assets - change permission to 777
-    2. /protected/runtime - change permission to 777
-    3. /uploads - change permission to 777
-    4  /protected/yiic.php , yiic.bat and yiic - change permission to 755 at least. this is where we do our cronjob, migrations
-    5. /environment.php - add your absolute path to $local_path
-    6. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
+    1. /assets - change permission to writable
+    2. /protected/runtime - change permission to writable
+    3. /uploads - change permission to writable
+    4. /environment.php - add your absolute path to $local_path
+    5. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
 
 you should be able to access:
 
