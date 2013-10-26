@@ -1,0 +1,17 @@
+{
+    "name": "bryglen/yii-advanced-template",
+    "description": "Bryan Tan Yii Advanced Template",
+    "keywords": ["yii","yii advanced template"],
+    "homepage": "http://github.com/bryglen/yii-advanced-template",
+    "authors": [
+        {
+            "name": "Bryan Tan",
+            "email": "bryantan16@gmail.com",
+            "homepage": "http://bryantan.info",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    }
+}

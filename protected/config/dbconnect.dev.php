@@ -6,5 +6,5 @@ return array(
     'username' => 'root',
     'password' => 'root',
     'charset' => 'utf8',
-    'schemaCachingDuration' => 60*60,
+    'enableParamLogging' => true,
 );

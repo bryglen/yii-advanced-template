@@ -41,7 +41,7 @@ INSTALLATION
     1. /assets - create 'assets' folder in root directory
     2. /protected/runtime - create 'runtime' folder in protected directory
     3. /uploads - change to 777
-    4  /protected/yiic.php , yiic.bat and yiic - change to 755 atleast. this is where we do our migration and unit testing
+    4  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
     5. /environment.php - add your absolute path to $local_path
     6. /environment-console.php - add your absolute path to $local_path
     7. /protected/yiic.php - add absolute path of the server,  change the $local_path.
@@ -56,7 +56,10 @@ you should be able to access:
 - the backend using the URL `http://localhost/bryantan/backend/`
 - the api using the URL `http://localhost/bryantan/api/`
 
-###### Inspired By: http://www.yiiframework.com/wiki/63/organize-directories-for-applications-with-front-end-and-back-end-using-webapplicationend-behavior
-###### Since: Oct 25, 2013
-###### Author: bryantan16@gmail.com
-###### Version: 1.0.0
+**Inspired By:** http://www.yiiframework.com/wiki/63/organize-directories-for-applications-with-front-end-and-back-end-using-webapplicationend-behavior
+
+**Since:** Oct 25, 2013
+
+**Author:** bryantan16@gmail.com
+
+**Version:** 1.0.0
