@@ -37,19 +37,35 @@ In order for captcha to work you need either GD2 extension or ImageMagick PHP ex
 INSTALLATION
 ------------
 
-### Installation ###
-    1. /assets - create 'assets' folder if not exists and chmod to 777
-    2. /protected/runtime - create 'runtime' if not exists and chmod to 777
-    3. /protected/migrations - chmod to 777
-    4. /uploads - change to 777
-    5  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
-    6. /environment.php - add your absolute path to $local_path
-    7. /environment-console.php - add your absolute path to $local_path
-    8. /protected/yiic.php - add absolute path of the server,  change the $local_path.
-    9. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
+### Install via Composer
+
+If you do not have [Composer](http://getcomposer.org/), you may download it from
+[http://getcomposer.org/](http://getcomposer.org/) or run the following command on Linux/Unix/MacOS:
+
+~~~
+curl -s http://getcomposer.org/installer | php
+~~~
+
+You can then install the application using the following command:
+
+~~~
+php composer.phar create-project --stability=dev bryglen/yii-advanced-template yii-advanced
+~~~
+
+### Install from repository
+
+Download source code from [repository](https://github.com/bryglen/yii-advanced-template)
 
 GETTING STARTED
 ---------------
+
+    1. /assets - change permission to 777
+    2. /protected/runtime - change permission to 777
+    3. /protected/migrations - change permission to 777
+    4. /uploads - change permission to 777
+    5  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
+    6. /environment.php - add your absolute path to $local_path
+    9. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
 
 you should be able to access:
 
