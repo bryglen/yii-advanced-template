@@ -59,9 +59,9 @@ Download source code from [repository](https://github.com/bryglen/yii-advanced-t
 GETTING STARTED
 ---------------
 
-    1. /assets - change permission to writable
-    2. /protected/runtime - change permission to writable
-    3. /uploads - change permission to writable
+    1. /assets - change permission to writable by webserver
+    2. /protected/runtime - change permission to writable by webserver
+    3. /uploads - change permission to writable by webserver
     4. /environment.php - add your absolute path to $local_path
     5. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
 
