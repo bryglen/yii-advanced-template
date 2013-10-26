@@ -38,14 +38,15 @@ INSTALLATION
 ------------
 
 ### Installation ###
-    1. /assets - create 'assets' folder in root directory
-    2. /protected/runtime - create 'runtime' folder in protected directory
-    3. /uploads - change to 777
-    4  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
-    5. /environment.php - add your absolute path to $local_path
-    6. /environment-console.php - add your absolute path to $local_path
-    7. /protected/yiic.php - add absolute path of the server,  change the $local_path.
-    8. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
+    1. /assets - create 'assets' folder if not exists and chmod to 777
+    2. /protected/runtime - create 'runtime' if not exists and chmod to 777
+    3. /protected/migrations - chmod to 777
+    4. /uploads - change to 777
+    5  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
+    6. /environment.php - add your absolute path to $local_path
+    7. /environment-console.php - add your absolute path to $local_path
+    8. /protected/yiic.php - add absolute path of the server,  change the $local_path.
+    9. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
 
 GETTING STARTED
 ---------------

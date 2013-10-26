@@ -3,6 +3,7 @@
     "description": "Bryan Tan Yii Advanced Template",
     "keywords": ["yii","yii advanced template"],
     "homepage": "http://github.com/bryglen/yii-advanced-template",
+    "type": "project",
     "authors": [
         {
             "name": "Bryan Tan",
@@ -13,5 +14,13 @@
     ],
     "require": {
         "php": ">=5.3.0"
+    },
+    "extra": {
+        "writable": [
+            "protected/runtime",
+            "protected/migrations",
+            "assets",
+            "uploads"
+        ]
     }
 }

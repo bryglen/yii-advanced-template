@@ -1,7 +1,4 @@
 #application
-/assets
-/runtime
-/uploads
 /protected/config/dbconnect.local.php
 /protected/config/dbconnect.test.local.php
 
