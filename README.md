@@ -61,11 +61,10 @@ GETTING STARTED
 
     1. /assets - change permission to 777
     2. /protected/runtime - change permission to 777
-    3. /protected/migrations - change permission to 777
-    4. /uploads - change permission to 777
-    5  /protected/yiic.php , yiic.bat and yiic - change to 755 at least. this is where we do our cronjob, migrations
-    6. /environment.php - add your absolute path to $local_path
-    9. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
+    3. /uploads - change permission to 777
+    4  /protected/yiic.php , yiic.bat and yiic - change permission to 755 at least. this is where we do our cronjob, migrations
+    5. /environment.php - add your absolute path to $local_path
+    6. /protected/config/dbconnect.local.php - create a file and copy the format in dbconnect.sample.php (local development) and change the the configuration
 
 you should be able to access:
 

@@ -1,8 +1,8 @@
 {
     "name": "bryglen/yii-advanced-template",
     "description": "Bryan Tan Yii Advanced Template",
-    "keywords": ["yii","yii advanced template"],
-    "homepage": "http://github.com/bryglen/yii-advanced-template",
+    "keywords": ["yii","yii advanced template","web"],
+    "homepage": "http://github.com/bryglen",
     "type": "project",
     "authors": [
         {
