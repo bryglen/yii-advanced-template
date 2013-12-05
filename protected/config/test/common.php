@@ -1,12 +1,11 @@
 <?php
 
-return CMap::mergeArray(
-    require(dirname(__FILE__) . '/../frontend/common.php'), // merge with main config file
-    array(
-        'components' => array(
-            'fixture' => array(
-                'class' => 'system.test.CDbFixtureManager',
-            ),
+return array(
+    'name' => 'My Test App',
+    // application components
+    'components' => array(
+        'fixture' => array(
+            'class' => 'system.test.CDbFixtureManager',
         ),
-    )
+    ),
 );
